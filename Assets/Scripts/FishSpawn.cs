@@ -5,7 +5,7 @@ using UnityEngine;
 public class FishSpawn : MonoBehaviour
 {
     [SerializeField] private Transform[] _spawnPoints;
-    [SerializeField] private GameObject _fishPrefab;
+    [SerializeField] private FishDestroy _fishPrefab;
 
     private float _spawnTime = 2f;
 
